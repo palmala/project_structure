@@ -1,5 +1,5 @@
-from package1.common.helpers import func1
+from package1.common import helpers
 
 
 def feature1():
-    return func1()
+    return helpers.func1()
